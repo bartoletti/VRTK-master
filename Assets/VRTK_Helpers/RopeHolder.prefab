@@ -86,9 +86,11 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: da8d6f3e1bf976449b69a9410559dafd, type: 2}
   m_StaticBatchInfo:
@@ -101,6 +103,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -118,9 +121,11 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 93d2e1b59d36fd1409c6163e19b98c9a, type: 2}
   m_StaticBatchInfo:
@@ -133,6 +138,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
