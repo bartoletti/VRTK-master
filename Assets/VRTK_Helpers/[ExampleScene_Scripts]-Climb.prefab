@@ -1000,9 +1000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectControlScript: {fileID: 114867034794727916}
+  objectControlScript: {fileID: 114265246106911158}
   listenOnAxisChange: 1
-  maximumSpeed: 1
+  maximumSpeed: 0.1
   deceleration: 0.1
   fallingDeceleration: 0.01
   speedMultiplier: 1.5
@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf039de547880c4d9e49bf7eed59df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectControlScript: {fileID: 114265246106911158}
+  objectControlScript: {fileID: 114867034794727916}
   listenOnAxisChange: 0
   maximumRotationSpeed: 6
   rotationMultiplier: 0.5
@@ -1315,9 +1315,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1227828337a634aa0ff434d6bbd019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectControlScript: {fileID: 114867034794727916}
+  objectControlScript: {fileID: 114265246106911158}
   listenOnAxisChange: 0
-  maximumSpeed: 1
+  maximumSpeed: 0.1
   deceleration: 0.1
   fallingDeceleration: 0.01
   speedMultiplier: 1.5
