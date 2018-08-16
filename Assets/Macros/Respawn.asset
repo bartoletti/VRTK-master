@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Respawn
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":574.0097,"y":177.5759},"zoom":0.5999999,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":145.0,"y":-147.0},"guid":"97a66159-9f1d-400f-87c6-529b5afabd91","$version":"A","$type":"Bolt.OnTriggerEnter","$id":"9"},{"type":"UnityEngine.GameObject","value":{"$content":0,"$type":"UnityEngine.GameObject"},"defaultValues":{},"position":{"x":136.0,"y":45.0},"guid":"17d754a6-3eea-44e9-9389-de18adc7deec","$version":"A","$type":"Bolt.Literal","$id":"11"},{"type":"UnityEngine.Transform","instance":true,"static":false,"defaultValues":{"target":null},"position":{"x":327.0,"y":201.0},"guid":"bfef6f2c-c7cb-4a61-9686-0db8d86198ee","$version":"A","$type":"Bolt.Expose","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"respawnPoint","$type":"System.String"},"object":null},"position":{"x":57.0,"y":198.0},"guid":"c2ac7b6d-a768-4608-9910-22ec53a18da3","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":100.0,"$type":"UnityEngine.Vector3"}},"position":{"x":492.0,"y":20.0},"guid":"e8476447-99b0-48b8-b2b7-54360384593c","$version":"A","$type":"Bolt.SetMember","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"24794b2b-717b-4616-80ea-0bd2d5bf31c0","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"ef3fa7de-8fc8-4824-a6d1-b09a1d5388cc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"afa170a9-a8ac-420e-a7b1-f9ed82becfd7","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"position","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"d38d6009-a16b-4540-bfc5-93786faaf1b8","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Input
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.Boolean","key":"OVR
+      Input","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":-656.6064,"y":-364.5201},"zoom":0.6999999,"elements":[{"chainable":false,"member":{"name":"GetDown","parameterTypes":["OVRInput+Button","OVRInput+Controller"],"targetType":"OVRInput","targetTypeName":"OVRInput","$version":"A"},"defaultValues":{"%virtualMask":{"$content":"PrimaryIndexTrigger","$type":"OVRInput+Button"},"%controllerMask":{"$content":"Active","$type":"OVRInput+Controller"}},"position":{"x":-601.0,"y":-624.0},"guid":"1f254bef-d5ae-427b-931e-07d33905a38c","$version":"A","$type":"Bolt.InvokeMember","$id":"10"},{"type":"OVRInput+Controller","value":{"$content":"RTouch","$type":"OVRInput+Controller"},"defaultValues":{},"position":{"x":-879.0,"y":-537.0},"guid":"e30f61d3-6efd-4f84-afac-3024699608f7","$version":"A","$type":"Bolt.Literal","$id":"13"},{"type":"OVRInput+Button","value":{"$content":"","$type":"OVRInput+Button"},"defaultValues":{},"position":{"x":-877.0,"y":-646.0},"guid":"3ca2f023-243b-4f54-b286-e3fe370eb0a0","$version":"A","$type":"Bolt.Literal","$id":"15"},{"chainable":false,"member":{"name":"GetKeyDown","parameterTypes":["UnityEngine.KeyCode"],"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{"%key":{"$content":"Mouse0","$type":"UnityEngine.KeyCode"}},"position":{"x":-823.0,"y":-930.0},"guid":"c70e5509-98ca-4eb6-be5e-0608a99af811","$version":"A","$type":"Bolt.InvokeMember"},{"defaultValues":{},"position":{"x":-222.0,"y":-638.0},"guid":"b6973a41-73c4-452b-baca-0bb04a61eeec","$version":"A","$type":"Bolt.GraphOutput","$id":"20"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"10"},"destinationKey":"%controllerMask","guid":"b893614a-da05-4c67-8c14-4d21cb2a3992","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"10"},"destinationKey":"%virtualMask","guid":"21bbe97e-7e5b-42b8-bf4b-627bc15dea8e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"result","destinationUnit":{"$ref":"20"},"destinationKey":"OVR
+      Input","guid":"0a368455-a53d-49cc-b9ff-e3397f1644bf","$type":"Bolt.ValueConnection"},{"position":{"xMin":-911.0,"yMin":-723.0,"xMax":-424.0,"yMax":-348.0},"label":"OVR
+      Input","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"e2b6ed13-de92-4a9a-b315-fe5b52ca96e8","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":-865.0,"yMin":-1005.0,"xMax":-630.0,"yMax":-769.0},"label":"Mouse
+      Input","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"ad0b75f1-8540-41a0-9079-9788df5a52a1","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
