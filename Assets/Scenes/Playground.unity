@@ -7407,11 +7407,16 @@ SkinnedMeshRenderer:
   m_AABB:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0, y: 0, z: -0.00000017881393}
 =======
     m_Center: {x: 0, y: 0, z: 0}
 >>>>>>> a0c5eecf780d06a06728f720f6a0558d12d4044f
     m_Extent: {x: 5.1046414, y: 1.0787082, z: 5.1046414}
+=======
+    m_Center: {x: 0.00000047683716, y: 0, z: 0.000000059604645}
+    m_Extent: {x: 4.117773, y: 0.8701643, z: 4.117772}
+>>>>>>> parent of a0c5eec... tweaked environment
 =======
     m_Center: {x: 0.00000047683716, y: 0, z: 0.000000059604645}
     m_Extent: {x: 4.117773, y: 0.8701643, z: 4.117772}
@@ -7870,6 +7875,7 @@ Transform:
 =======
   m_RootOrder: 26
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: -130.29, z: -90.00001}
 --- !u!4 &1040664958 stripped
 Transform:
@@ -7882,6 +7888,9 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 114253395}
 >>>>>>> a0c5eecf780d06a06728f720f6a0558d12d4044f
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: -78.75101, z: -90.00001}
+>>>>>>> parent of a0c5eec... tweaked environment
 =======
   m_LocalEulerAnglesHint: {x: 0, y: -78.75101, z: -90.00001}
 >>>>>>> parent of a0c5eec... tweaked environment
@@ -11114,12 +11123,17 @@ Light:
   m_Color: {r: 1, g: 0.22492884, b: 0, a: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Intensity: 8.76
   m_Range: 18.5
 =======
   m_Intensity: 6.5
   m_Range: 14.8
 >>>>>>> a0c5eecf780d06a06728f720f6a0558d12d4044f
+=======
+  m_Intensity: 2.08
+  m_Range: 9.96
+>>>>>>> parent of a0c5eec... tweaked environment
 =======
   m_Intensity: 2.08
   m_Range: 9.96
@@ -12964,6 +12978,7 @@ Prefab:
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 14.864
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -12984,6 +12999,16 @@ Prefab:
     - target: {fileID: 1008743672072760, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -123.283005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -24.594002
+>>>>>>> parent of a0c5eec... tweaked environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
