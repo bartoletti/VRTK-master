@@ -4698,12 +4698,21 @@ Prefab:
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_RootOrder
       value: 6
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_LocalScale.x
       value: 0.07682003
       objectReference: {fileID: 0}
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.07682003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
+>>>>>>> parent of 4417a3b... Merge branch 'HandAdd' of https://github.com/bartoletti/VRTK-master into HandAdd
       propertyPath: m_LocalScale.y
       value: 0.07682001
       objectReference: {fileID: 0}
@@ -7408,10 +7417,10 @@ SkinnedMeshRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    m_Center: {x: 0, y: 0, z: -0.00000017881393}
+<<<<<<< HEAD
 =======
-    m_Center: {x: 0, y: 0, z: 0}
->>>>>>> a0c5eecf780d06a06728f720f6a0558d12d4044f
+>>>>>>> parent of 4417a3b... Merge branch 'HandAdd' of https://github.com/bartoletti/VRTK-master into HandAdd
+    m_Center: {x: 0, y: 0, z: -0.00000017881393}
     m_Extent: {x: 5.1046414, y: 1.0787082, z: 5.1046414}
 =======
     m_Center: {x: 0.00000047683716, y: 0, z: 0.000000059604645}
@@ -7869,9 +7878,9 @@ Transform:
   m_LocalScale: {x: 1.5614159, y: 1.5614158, z: 1.5614157}
   m_Children: []
   m_Father: {fileID: 794458744}
-<<<<<<< HEAD
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -78.75101, z: -90.00001}
+<<<<<<< HEAD
 =======
   m_RootOrder: 26
 <<<<<<< HEAD
@@ -7894,6 +7903,8 @@ Transform:
 =======
   m_LocalEulerAnglesHint: {x: 0, y: -78.75101, z: -90.00001}
 >>>>>>> parent of a0c5eec... tweaked environment
+=======
+>>>>>>> parent of 4417a3b... Merge branch 'HandAdd' of https://github.com/bartoletti/VRTK-master into HandAdd
 --- !u!1 &1058993327
 GameObject:
   m_ObjectHideFlags: 0
@@ -11124,6 +11135,7 @@ Light:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Intensity: 8.76
   m_Range: 18.5
 =======
@@ -11138,6 +11150,10 @@ Light:
   m_Intensity: 2.08
   m_Range: 9.96
 >>>>>>> parent of a0c5eec... tweaked environment
+=======
+  m_Intensity: 8.76
+  m_Range: 18.5
+>>>>>>> parent of 4417a3b... Merge branch 'HandAdd' of https://github.com/bartoletti/VRTK-master into HandAdd
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -12962,6 +12978,7 @@ Prefab:
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_LocalScale.x
       value: 0.07682003
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_LocalScale.y
@@ -12971,6 +12988,17 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.076820046
       objectReference: {fileID: 0}
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.07682002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.076820046
+      objectReference: {fileID: 0}
+>>>>>>> parent of 4417a3b... Merge branch 'HandAdd' of https://github.com/bartoletti/VRTK-master into HandAdd
     - target: {fileID: 1008743672072760, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_Name
       value: HandClimb (1)
@@ -12979,6 +13007,9 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 14.864
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4417a3b... Merge branch 'HandAdd' of https://github.com/bartoletti/VRTK-master into HandAdd
       objectReference: {fileID: 0}
     - target: {fileID: 4235020037815448, guid: f2a206691397592498ef7ec08681b4fb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
